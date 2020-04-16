@@ -1,0 +1,133 @@
+@font-face { 
+    font-family: "Bellota-Regular";
+    src: url("police/Bellota-Regular.otf") format("OpenType");
+}
+
+body {
+    font-family: "Bellota-Regular",Arial, Verdana, sans-serif !important;
+}
+
+.maPolice {
+    font-family: "Bellota-Regular",Arial, Verdana, sans-serif !important;
+}
+
+.bgMenuIcones {
+    background-color: #f9dec9 !important;
+}
+
+.bg-menu {
+    background-color: #c58882 !important;
+}
+
+.menuSidebar{
+    font-family: "Bellota-Regular",Arial, Verdana, sans-serif !important;
+    background-color: #c58882 !important;
+    color: black !important;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.submenuSidebar{
+    font-family: "Bellota-Regular",Arial, Verdana, sans-serif !important;
+    background-color: #c58882 !important;
+    color: black !important;
+    font-size: 20px  !important;
+    padding-left: 30px !important;
+}
+
+.menuSidebar:hover,.submenuSidebar:hover{
+    color: #f9dec9 !important;
+}
+
+.monBouton {
+    border-color: #c58882  !important;
+    color: #c58882  !important;
+    background-color: white !important; 
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.btnMenuMobil:hover{
+    color: #c58882  !important;
+}
+
+.monBouton:hover, .monBouton:focus {
+    background-color: #c58882  !important;
+    border: 0 !important;
+    color: white !important;  
+}
+.texteNoir{
+    color: black !important;
+}
+
+.iconCouleur{
+    color: black !important;
+}
+
+.changeTailleLogo {
+    width: 150px !important;
+    height: 60px !important;
+}
+
+.bgFooter {
+    background-color: #f9dec9 !important;
+}
+
+.nav-link-custom:hover{
+    font-weight: bold;
+}
+
+
+main{
+    position: relative;
+    top: 50px;
+}
+
+.video {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.inscription {
+    margin-top: 15%;
+}
+
+@media only screen and (min-width: 992px) {
+    .bg-menu {
+        background-color: white !important;
+    }
+
+    .iconCouleur {
+        color: black !important;
+    }
+
+    .bgMenuIcones {
+        background-color: white !important;
+        /* color: ; */
+    }
+
+    .video {
+        width: 90% !important;
+        height: 90% !important;
+        padding-left: 10%;
+    }
+
+    .menuDesktop {
+      position: fixed;
+      z-index: 1; 
+      background-color: white;
+      overflow : visible;
+    }
+
+    .submenuDesktop {
+        font-size: 17px !important;
+    }
+    
+    .submenuDesktop:hover {
+        color: #c58882 !important;
+    }
+
+    .inscription {
+        margin-top: 7% !important;
+    }
+    
+}    
